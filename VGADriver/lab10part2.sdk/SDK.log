@@ -1,0 +1,17 @@
+18:55:56 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab10part2/lab10part2.sdk/system_wrapper.hdf.
+18:56:02 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+19:02:50 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab10part2/lab10part2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:03:04 INFO  : ps7_init is completed.
+19:03:04 INFO  : ps7_post_config is completed.
+19:03:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:09:00 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab10part2/lab10part2.sdk/system_wrapper.hdf.
+19:09:02 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+19:09:03 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+19:09:03 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+19:09:22 INFO  : Refreshed build settings on project lab10part2
+20:19:58 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\Wangsir\Documents\SOC\xup\lab10part2\image\BOOT.bin
+20:19:58 INFO  : Creating new bif file C:\Users\Wangsir\Documents\SOC\xup\lab10part2\image\output.bif
+20:19:59 INFO  : Bootgen command execution is done.
+07:43:18 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab10part2/lab10part2.sdk/system_wrapper.hdf.
+07:43:21 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+07:43:21 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450

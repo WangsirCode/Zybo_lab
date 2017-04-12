@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\fsbl\Debug\fsbl.elf
+	C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0\system_wrapper.bit
+	C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\lab10part2\Debug\lab10part2.elf
+}

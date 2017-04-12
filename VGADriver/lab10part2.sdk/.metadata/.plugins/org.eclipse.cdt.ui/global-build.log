@@ -1,0 +1,460 @@
+19:01:00 **** Build of project lab10part2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project lab10part2 ****
+
+Nothing to build for project lab10part2
+19:01:32 **** Auto Build of configuration Debug for project lab10part2 ****
+make all 
+'Building file: ../audio_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"audio_demo.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"audio_demo.d" -MT"audio_demo.d" -o "audio_demo.o" "../audio_demo.c"
+'Finished building: ../audio_demo.c'
+' '
+'Building file: ../display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"display_ctrl.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"display_ctrl.d" -MT"display_ctrl.d" -o "display_ctrl.o" "../display_ctrl.c"
+'Finished building: ../display_ctrl.c'
+' '
+'Building file: ../display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"display_demo.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"display_demo.d" -MT"display_demo.d" -o "display_demo.o" "../display_demo.c"
+../display_demo.c: In function 'RD_own':
+../display_demo.c:290:18: warning: suggest parentheses around arithmetic in operand of '^' [-Wparentheses]
+  return (i-DIM)^2+(j-DIM)^2;
+                  ^
+../display_demo.c: In function 'GR_own':
+../display_demo.c:293:12: warning: suggest parentheses around arithmetic in operand of '^' [-Wparentheses]
+  return j^j-i^i;
+            ^
+../display_demo.c: In function 'BL_own':
+../display_demo.c:296:13: warning: suggest parentheses around arithmetic in operand of '^' [-Wparentheses]
+   return i^i-j^j;
+             ^
+../display_demo.c: In function 'DisplayDemoPrintTest':
+../display_demo.c:309:15: warning: variable 'yInc' set but not used [-Wunused-but-set-variable]
+  double xInc, yInc;
+               ^
+../display_demo.c:309:9: warning: variable 'xInc' set but not used [-Wunused-but-set-variable]
+  double xInc, yInc;
+         ^
+../display_demo.c:308:6: warning: variable 'yMid' set but not used [-Wunused-but-set-variable]
+  u32 yMid, yInt;
+      ^
+../display_demo.c:307:19: warning: variable 'xRight' set but not used [-Wunused-but-set-variable]
+  u32 xLeft, xMid, xRight, xInt;
+                   ^
+../display_demo.c:307:13: warning: variable 'xMid' set but not used [-Wunused-but-set-variable]
+  u32 xLeft, xMid, xRight, xInt;
+             ^
+../display_demo.c:307:6: warning: variable 'xLeft' set but not used [-Wunused-but-set-variable]
+  u32 xLeft, xMid, xRight, xInt;
+      ^
+../display_demo.c:305:6: warning: unused variable 'wCurrentInt' [-Wunused-variable]
+  u32 wCurrentInt;
+      ^
+../display_demo.c:304:27: warning: unused variable 'wColor' [-Wunused-variable]
+  u32 wRed, wBlue, wGreen, wColor;
+                           ^
+../display_demo.c:304:19: warning: unused variable 'wGreen' [-Wunused-variable]
+  u32 wRed, wBlue, wGreen, wColor;
+                   ^
+../display_demo.c:304:12: warning: unused variable 'wBlue' [-Wunused-variable]
+  u32 wRed, wBlue, wGreen, wColor;
+            ^
+../display_demo.c:304:6: warning: unused variable 'wRed' [-Wunused-variable]
+  u32 wRed, wBlue, wGreen, wColor;
+      ^
+'Finished building: ../display_demo.c'
+' '
+'Building file: ../main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"main.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:69:7: warning: variable 'hdmiPtr' set but not used [-Wunused-but-set-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+'Finished building: ../main.c'
+' '
+'Building file: ../timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"timer_ps.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"timer_ps.d" -MT"timer_ps.d" -o "timer_ps.o" "../timer_ps.c"
+'Finished building: ../timer_ps.c'
+' '
+'Building target: lab10part2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10part2_bsp/ps7_cortexa9_0/lib -o "lab10part2.elf"  ./audio_demo.o ./display_ctrl.o ./display_demo.o ./main.o ./timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10part2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10part2.elf  |tee "lab10part2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  95008	   2464	51714624	51812096	3169700	lab10part2.elf
+'Finished building: lab10part2.elf.size'
+' '
+19:02:58 **** Incremental Build of configuration Debug for project lab10part2 ****
+make all 
+make: Nothing to be done for `all'.
+19:09:22 **** Build of project lab10part2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_1/src"
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling XilFFs Library"
+"Creating archive libxilffs.a"
+"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_1/src"
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+'Finished building libraries'
+19:09:47 **** Clean-only build of configuration Debug for project lab10part2 ****
+make clean 
+rm -rf  ./audio_demo.o ./display_ctrl.o ./display_demo.o ./main.o ./timer_ps.o  ./audio_demo.d ./display_ctrl.d ./display_demo.d ./main.d ./timer_ps.d  lab10part2.elf.size  lab10part2.elf
+' '
+19:09:48 **** Build of configuration Debug for project lab10part2 ****
+make all 
+'Building file: ../audio_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"audio_demo.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"audio_demo.d" -MT"audio_demo.d" -o "audio_demo.o" "../audio_demo.c"
+'Finished building: ../audio_demo.c'
+' '
+'Building file: ../display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"display_ctrl.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"display_ctrl.d" -MT"display_ctrl.d" -o "display_ctrl.o" "../display_ctrl.c"
+'Finished building: ../display_ctrl.c'
+' '
+'Building file: ../display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"display_demo.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"display_demo.d" -MT"display_demo.d" -o "display_demo.o" "../display_demo.c"
+../display_demo.c: In function 'RD_own':
+../display_demo.c:290:18: warning: suggest parentheses around arithmetic in operand of '^' [-Wparentheses]
+  return (i-DIM)^2+(j-DIM)^2;
+                  ^
+../display_demo.c: In function 'GR_own':
+../display_demo.c:293:12: warning: suggest parentheses around arithmetic in operand of '^' [-Wparentheses]
+  return j^j-i^i;
+            ^
+../display_demo.c: In function 'BL_own':
+../display_demo.c:296:13: warning: suggest parentheses around arithmetic in operand of '^' [-Wparentheses]
+   return i^i-j^j;
+             ^
+../display_demo.c: In function 'DisplayDemoPrintTest':
+../display_demo.c:309:15: warning: variable 'yInc' set but not used [-Wunused-but-set-variable]
+  double xInc, yInc;
+               ^
+../display_demo.c:309:9: warning: variable 'xInc' set but not used [-Wunused-but-set-variable]
+  double xInc, yInc;
+         ^
+../display_demo.c:308:6: warning: variable 'yMid' set but not used [-Wunused-but-set-variable]
+  u32 yMid, yInt;
+      ^
+../display_demo.c:307:19: warning: variable 'xRight' set but not used [-Wunused-but-set-variable]
+  u32 xLeft, xMid, xRight, xInt;
+                   ^
+../display_demo.c:307:13: warning: variable 'xMid' set but not used [-Wunused-but-set-variable]
+  u32 xLeft, xMid, xRight, xInt;
+             ^
+../display_demo.c:307:6: warning: variable 'xLeft' set but not used [-Wunused-but-set-variable]
+  u32 xLeft, xMid, xRight, xInt;
+      ^
+../display_demo.c:305:6: warning: unused variable 'wCurrentInt' [-Wunused-variable]
+  u32 wCurrentInt;
+      ^
+../display_demo.c:304:27: warning: unused variable 'wColor' [-Wunused-variable]
+  u32 wRed, wBlue, wGreen, wColor;
+                           ^
+../display_demo.c:304:19: warning: unused variable 'wGreen' [-Wunused-variable]
+  u32 wRed, wBlue, wGreen, wColor;
+                   ^
+../display_demo.c:304:12: warning: unused variable 'wBlue' [-Wunused-variable]
+  u32 wRed, wBlue, wGreen, wColor;
+            ^
+../display_demo.c:304:6: warning: unused variable 'wRed' [-Wunused-variable]
+  u32 wRed, wBlue, wGreen, wColor;
+      ^
+'Finished building: ../display_demo.c'
+' '
+'Building file: ../main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"main.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:69:7: warning: variable 'hdmiPtr' set but not used [-Wunused-but-set-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+'Finished building: ../main.c'
+' '
+'Building file: ../timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"timer_ps.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"timer_ps.d" -MT"timer_ps.d" -o "timer_ps.o" "../timer_ps.c"
+'Finished building: ../timer_ps.c'
+' '
+'Building target: lab10part2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10part2_bsp/ps7_cortexa9_0/lib -o "lab10part2.elf"  ./audio_demo.o ./display_ctrl.o ./display_demo.o ./main.o ./timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10part2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10part2.elf  |tee "lab10part2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  95008	   2464	51714624	51812096	3169700	lab10part2.elf
+'Finished building: lab10part2.elf.size'
+' '
+20:12:34 **** Build of configuration Debug for project fsbl ****
+make all 
+'Building file: ../src/fsbl_handoff.S'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_handoff.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_handoff.d" -MT"src/fsbl_handoff.d" -o "src/fsbl_handoff.o" "../src/fsbl_handoff.S"
+'Finished building: ../src/fsbl_handoff.S'
+' '
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+'Finished building: ../src/fsbl_hooks.c'
+' '
+'Building file: ../src/image_mover.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/image_mover.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image_mover.d" -MT"src/image_mover.d" -o "src/image_mover.o" "../src/image_mover.c"
+'Finished building: ../src/image_mover.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/main.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/md5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/md5.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/md5.d" -MT"src/md5.d" -o "src/md5.o" "../src/md5.c"
+'Finished building: ../src/md5.c'
+' '
+'Building file: ../src/nand.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nand.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nand.d" -MT"src/nand.d" -o "src/nand.o" "../src/nand.c"
+'Finished building: ../src/nand.c'
+' '
+'Building file: ../src/nor.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nor.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nor.d" -MT"src/nor.d" -o "src/nor.o" "../src/nor.c"
+'Finished building: ../src/nor.c'
+' '
+'Building file: ../src/pcap.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/pcap.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pcap.d" -MT"src/pcap.d" -o "src/pcap.o" "../src/pcap.c"
+'Finished building: ../src/pcap.c'
+' '
+'Building file: C:/Users/Wangsir/Documents/SOC/xup/lab10part2/lab10part2.sdk/system_wrapper_hw_platform_0/ps7_init.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/ps7_init.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "C:/Users/Wangsir/Documents/SOC/xup/lab10part2/lab10part2.sdk/system_wrapper_hw_platform_0/ps7_init.c"
+'Finished building: C:/Users/Wangsir/Documents/SOC/xup/lab10part2/lab10part2.sdk/system_wrapper_hw_platform_0/ps7_init.c'
+' '
+'Building file: ../src/qspi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/qspi.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/qspi.d" -MT"src/qspi.d" -o "src/qspi.o" "../src/qspi.c"
+'Finished building: ../src/qspi.c'
+' '
+'Building file: ../src/rsa.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/rsa.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rsa.d" -MT"src/rsa.d" -o "src/rsa.o" "../src/rsa.c"
+'Finished building: ../src/rsa.c'
+' '
+'Building file: ../src/sd.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/sd.o" -I../../lab10part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sd.d" -MT"src/sd.d" -o "src/sd.o" "../src/sd.c"
+'Finished building: ../src/sd.c'
+' '
+'Building target: fsbl.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -L"C:\Users\Wangsir\Documents\SOC\xup\lab10part2\lab10part2.sdk\fsbl\src" -Wl,-T -Wl,../src/lscript.ld -L../../lab10part2_bsp/ps7_cortexa9_0/lib -o "fsbl.elf"  ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fsbl.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fsbl.elf  |tee "fsbl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  55092	  11936	  71812	 138840	  21e58	fsbl.elf
+'Finished building: fsbl.elf.size'
+' '
