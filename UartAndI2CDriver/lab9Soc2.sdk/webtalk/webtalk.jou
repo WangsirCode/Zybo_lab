@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 17:18:21 MST 2014
+# 
+# Start of session at: Sat Apr 01 11:00:28 2017
+# Process ID: 16280
+# Log file: C:/Users/Wangsir/Documents/SOC/xup/lab9Soc2/lab9Soc2.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Wangsir/Documents/SOC/xup/lab9Soc2/lab9Soc2.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

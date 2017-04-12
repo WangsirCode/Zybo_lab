@@ -1,0 +1,985 @@
+10:19:14 **** Build of project lab9SoC2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+10:19:43 **** Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../lab9SoC2_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\Wangsir\Documents\SOC\xup\lab9Soc2\lab9Soc2.sdk\lab9SoC2_bsp\ps7_cortexa9_0\libsrc\standalone_v4_2\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab9SoC2.elf] ´íÎó 1
+10:20:03 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:94:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:95:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:97:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:98:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83500	   2352	  22764	 108616	  1a848	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:21:19 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c:25:1: error: unknown type name 'XGpio'
+ XGpio uart;
+ ^
+../lab9SoC.c:26:1: error: unknown type name 'XGpio'
+ XGpio uart_full;
+ ^
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:97:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:98:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:101:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lab9SoC.o] ´íÎó 1
+10:21:43 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:97:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:98:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:101:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83500	   2352	  22796	 108648	  1a868	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:21:44 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+make: Nothing to be done for `all'.
+10:23:39 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:98:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:101:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:106:26: error: 'dip' undeclared (first use in this function)
+  XGpio_SetDataDirection(&dip, 1, 0xffffffff);
+                          ^
+../lab9SoC.c:106:26: note: each undeclared identifier is reported only once for each function it appears in
+../lab9SoC.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lab9SoC.o] ´íÎó 1
+10:23:46 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:98:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:101:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84612	   2384	  22796	 109792	  1ace0	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:25:02 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:98:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:101:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:106:26: error: 'uart1' undeclared (first use in this function)
+  XGpio_SetDataDirection(&uart1, 1, 0x00000000);
+                          ^
+../lab9SoC.c:106:26: note: each undeclared identifier is reported only once for each function it appears in
+../lab9SoC.c:109:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lab9SoC.o] ´íÎó 1
+10:25:14 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:98:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:101:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:109:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84612	   2384	  22796	 109792	  1ace0	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:25:40 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:98:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:101:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:111:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84676	   2384	  22796	 109856	  1ad20	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:26:10 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:98:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:101:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:112:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84676	   2384	  22796	 109856	  1ad20	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:27:47 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:103:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c: In function 'printToUart':
+../lab9SoC.c:117:16: warning: unused variable 'count' [-Wunused-variable]
+  unsigned char count = 0;
+                ^
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84676	   2384	  22796	 109856	  1ad20	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:28:19 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:103:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c: In function 'printToUart':
+../lab9SoC.c:117:16: warning: unused variable 'count' [-Wunused-variable]
+  unsigned char count = 0;
+                ^
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84684	   2384	  22796	 109864	  1ad28	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:28:27 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:103:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c: In function 'printToUart':
+../lab9SoC.c:117:16: warning: unused variable 'count' [-Wunused-variable]
+  unsigned char count = 0;
+                ^
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84748	   2384	  22796	 109928	  1ad68	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:29:06 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:103:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84748	   2384	  22796	 109928	  1ad68	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:31:20 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:103:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c: In function 'printToUart':
+../lab9SoC.c:120:3: error: incompatible type for argument 1 of 'XGpio_DiscreteRead'
+   while(XGpio_DiscreteRead(uart_full,1) == 1){};
+   ^
+In file included from ../lab9SoC.c:12:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xgpio.h:165:5: note: expected 'struct XGpio *' but argument is of type 'XGpio'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+     ^
+../lab9SoC.c:121:32: error: expected ')' before ']' token
+   XGpio_DiscreteWrite(&uart,2,1]);
+                                ^
+../lab9SoC.c:121:32: error: expected ';' before ']' token
+../lab9SoC.c:121:32: error: expected statement before ']' token
+../lab9SoC.c:121:33: error: expected statement before ')' token
+   XGpio_DiscreteWrite(&uart,2,1]);
+                                 ^
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lab9SoC.o] ´íÎó 1
+10:31:34 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:103:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c: In function 'printToUart':
+../lab9SoC.c:120:3: error: incompatible type for argument 1 of 'XGpio_DiscreteRead'
+   while(XGpio_DiscreteRead(uart_full,1) == 1){};
+   ^
+In file included from ../lab9SoC.c:12:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xgpio.h:165:5: note: expected 'struct XGpio *' but argument is of type 'XGpio'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+     ^
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [lab9SoC.o] ´íÎó 1
+10:31:42 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:103:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84876	   2384	  22796	 110056	  1ade8	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:32:14 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:103:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84876	   2384	  22796	 110056	  1ade8	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:36:52 **** Incremental Build of configuration Debug for project lab9SoC2 ****
+make all 
+make: Nothing to be done for `all'.
+10:56:13 **** Incremental Build of configuration Debug for project lab9SoC2 ****
+make all 
+make: Nothing to be done for `all'.
+10:57:39 **** Auto Build of configuration Debug for project lab9SoC2 ****
+make all 
+'Building file: ../lab9SoC.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab9SoC.o" -I../../lab9SoC2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab9SoC.d" -MT"lab9SoC.d" -o "lab9SoC.o" "../lab9SoC.c"
+../lab9SoC.c: In function 'initilization':
+../lab9SoC.c:99:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:100:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, resolution,2, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:102:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPL, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:103:2: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+  XIicPs_MasterSendPolled(&tmpPS, &setToZero,1, IIC_SLAVE_ADDR);
+  ^
+In file included from ../lab9SoC.c:8:0:
+../../lab9SoC2_bsp/ps7_cortexa9_0/include/xiicps.h:357:5: note: expected 'u8 *' but argument is of type 'char *'
+ int XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+     ^
+../lab9SoC.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../lab9SoC.c'
+' '
+'Building target: lab9SoC2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab9SoC2_bsp/ps7_cortexa9_0/lib -o "lab9SoC2.elf"  ./src/platform.o  ./lab9SoC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab9SoC2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab9SoC2.elf  |tee "lab9SoC2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84900	   2384	  22796	 110080	  1ae00	lab9SoC2.elf
+'Finished building: lab9SoC2.elf.size'
+' '
+10:58:08 **** Incremental Build of configuration Debug for project lab9SoC2 ****
+make all 
+make: Nothing to be done for `all'.
