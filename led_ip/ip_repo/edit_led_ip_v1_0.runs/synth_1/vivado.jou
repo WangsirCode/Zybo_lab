@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Mar 20 10:37:48 2017
+# Process ID: 112
+# Log file: C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.runs/synth_1/led_ip_v1_0.vds
+# Journal file: C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source led_ip_v1_0.tcl

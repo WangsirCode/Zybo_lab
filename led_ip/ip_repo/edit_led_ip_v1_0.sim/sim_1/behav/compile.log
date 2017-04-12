@@ -1,0 +1,9 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab3_user_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_ip_v1_0_S_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_ip_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

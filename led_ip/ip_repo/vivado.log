@@ -1,0 +1,115 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Mar 20 10:26:22 2017
+# Process ID: 7364
+# Log file: C:/Xilinx/xup/led_ip/ip_repo/vivado.log
+# Journal file: C:/Xilinx/xup/led_ip/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 723.680 ; gain = 177.688
+ipx::open_ipxact_file C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/component.xml
+set_property taxonomy {/Basic_Elements /Basic_Elements/Comparators /Basic_Elements/Accumulators /Basic_Elements/Memory_Elements /Basic_Elements/Registers,_Shifters_&_Pipelining /Basic_Elements/Counters} [ipx::current_core]
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010iclg225-1L
+INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.4
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z010i/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z010i/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z010i/clg225/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/zynq/IOStandards.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1042.520 ; gain = 301.547
+add_files -fileset constrs_1 -norecurse C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'D18' is not a valid site or package pin name. [C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc:10]
+Finished Parsing XDC File [C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1388.184 ; gain = 0.000
+remove_files -fileset constrs_1 C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1436.086 ; gain = 0.000
+ipx::add_file ../lab3_user_logic.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../lab3_user_logic.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../lab3_user_logic.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+ipx::remove_all_hdl_parameter [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0
+ERROR: [IP_Flow 19-264] [HDL Parser] No interface information is available for Verilog design unit 'led_ip_v1_0'.
+ERROR: [IP_Flow 19-262] [HDL Parser] Failed to parse top module entity.  This can result from an empty entity or module declaration (i.e. no ports or parameters/generics).  Check that design unit "led_ip_v1_0" of HDL file "C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v" is not empty.
+ERROR: [IP_Flow 19-258] [HDL Parser] Error parsing HDL file 'C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v'.
+ERROR: [Common 17-39] 'ipx::add_model_parameters_from_hdl' failed due to earlier errors.
+ipx::remove_all_hdl_parameter [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0
+ERROR: [IP_Flow 19-264] [HDL Parser] No interface information is available for Verilog design unit 'led_ip_v1_0'.
+ERROR: [IP_Flow 19-262] [HDL Parser] Failed to parse top module entity.  This can result from an empty entity or module declaration (i.e. no ports or parameters/generics).  Check that design unit "led_ip_v1_0" of HDL file "C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v" is not empty.
+ERROR: [IP_Flow 19-258] [HDL Parser] Error parsing HDL file 'C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v'.
+ERROR: [Common 17-39] 'ipx::add_model_parameters_from_hdl' failed due to earlier errors.
+ipx::remove_file ../lab3_user_logic.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+ipx::remove_all_hdl_parameter [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0
+ERROR: [IP_Flow 19-264] [HDL Parser] No interface information is available for Verilog design unit 'led_ip_v1_0'.
+ERROR: [IP_Flow 19-262] [HDL Parser] Failed to parse top module entity.  This can result from an empty entity or module declaration (i.e. no ports or parameters/generics).  Check that design unit "led_ip_v1_0" of HDL file "C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v" is not empty.
+ERROR: [IP_Flow 19-258] [HDL Parser] Error parsing HDL file 'C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v'.
+ERROR: [Common 17-39] 'ipx::add_model_parameters_from_hdl' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'led_ip_v1_0' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.sim/sim_1/behav'
+"xvlog -m64 -prj led_ip_v1_0_vlog.prj"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab3_user_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_ip_v1_0_S_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_ip_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [Common 17-344] 'run_program' was cancelled
+1
+    while executing
+"catch {rdi::run_program $scr_file} error_log"
+    (procedure "::tclapp::xilinx::xsim::usf_launch_script" line 35)
+    invoked from within
+"::tclapp::xilinx::xsim::usf_launch_script "xsim" $step"
+    (procedure "tclapp::xilinx::xsim::compile" line 13)
+    invoked from within
+"tclapp::xilinx::xsim::compile { -simset sim_1 -mode behavioral -run_dir {C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.sim/sim_1/behav} -int_os_type 6..."
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v" into library work [C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0.v" into library work [C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v" into library work [C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:1]
+[Mon Mar 20 10:37:45 2017] Launched synth_1...
+Run output will be captured here: C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.runs/synth_1/runme.log
+close_design

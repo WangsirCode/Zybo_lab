@@ -1,0 +1,325 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Mar 20 10:37:48 2017
+# Process ID: 112
+# Log file: C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.runs/synth_1/led_ip_v1_0.vds
+# Journal file: C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source led_ip_v1_0.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {Common-41} -limit 4294967295
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# set_msg_config -id {HDL-1065} -limit 10000
+# create_project -in_memory -part xc7z010iclg225-1L
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.cache/wt [current_project]
+# set_property parent.project_path C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# set_property ip_repo_paths C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0 [current_project]
+# read_verilog -library xil_defaultlib {
+#   C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v
+#   C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v
+#   C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0.v
+# }
+# catch { write_hwdef -file led_ip_v1_0.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top led_ip_v1_0 -part xc7z010iclg225-1L
+Command: synth_design -top led_ip_v1_0 -part xc7z010iclg225-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010i'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010i'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 227.332 ; gain = 68.992
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'led_ip_v1_0' [C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0.v:4]
+	Parameter LED_WIDTH bound to: 8 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'led_ip_v1_0_S_AXI' [C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:4]
+	Parameter LED_WIDTH bound to: 8 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lab3_user_logic' [C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v:6]
+	Parameter LED_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lab3_user_logic' (1#1) [C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v:6]
+WARNING: [Synth 8-689] width (2) of port connection 'axi_awaddr' does not match port width (3) of module 'lab3_user_logic' [C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:399]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:223]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:364]
+INFO: [Synth 8-256] done synthesizing module 'led_ip_v1_0_S_AXI' (2#1) [C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S_AXI.v:4]
+INFO: [Synth 8-256] done synthesizing module 'led_ip_v1_0' (3#1) [C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/hdl/led_ip_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 261.641 ; gain = 103.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 261.641 ; gain = 103.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010iclg225-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 261.641 ; gain = 103.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 268.766 ; gain = 110.426
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module led_ip_v1_0 
+Detailed RTL Component Info : 
+Module lab3_user_logic 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module led_ip_v1_0_S_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z010i/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z010i/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z010i/clg225/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/zynq/IOStandards.xml
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 408.008 ; gain = 249.668
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design led_ip_v1_0 has unconnected port s_axi_awprot[2]
+WARNING: [Synth 8-3331] design led_ip_v1_0 has unconnected port s_axi_awprot[1]
+WARNING: [Synth 8-3331] design led_ip_v1_0 has unconnected port s_axi_awprot[0]
+WARNING: [Synth 8-3331] design led_ip_v1_0 has unconnected port s_axi_arprot[2]
+WARNING: [Synth 8-3331] design led_ip_v1_0 has unconnected port s_axi_arprot[1]
+WARNING: [Synth 8-3331] design led_ip_v1_0 has unconnected port s_axi_arprot[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 408.008 ; gain = 249.668
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 408.008 ; gain = 249.668
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\led_ip_v1_0_S_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\led_ip_v1_0_S_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (\led_ip_v1_0_S_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module led_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\led_ip_v1_0_S_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module led_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\led_ip_v1_0_S_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module led_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\led_ip_v1_0_S_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module led_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\led_ip_v1_0_S_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module led_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\led_ip_v1_0_S_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module led_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\led_ip_v1_0_S_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module led_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\led_ip_v1_0_S_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module led_ip_v1_0.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     4|
+|4     |LUT3 |     2|
+|5     |LUT4 |    18|
+|6     |LUT5 |     3|
+|7     |LUT6 |    33|
+|8     |FDRE |   177|
+|9     |IBUF |    47|
+|10    |OBUF |    49|
++------+-----+------+
+
+Report Instance Areas: 
++------+-------------------------+------------------+------+
+|      |Instance                 |Module            |Cells |
++------+-------------------------+------------------+------+
+|1     |top                      |                  |   335|
+|2     |  led_ip_v1_0_S_AXI_inst |led_ip_v1_0_S_AXI |   238|
+|3     |    U1                   |lab3_user_logic   |    10|
++------+-------------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 15 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 427.188 ; gain = 252.723
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 427.188 ; gain = 268.848
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 482.441 ; gain = 308.043
+# write_checkpoint -noxdef led_ip_v1_0.dcp
+# catch { report_utilization -file led_ip_v1_0_utilization_synth.rpt -pb led_ip_v1_0_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 482.441 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 20 10:38:03 2017...

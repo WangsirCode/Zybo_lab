@@ -1,0 +1,545 @@
+/*
+
+Vivado v2014.4 (64-bit)
+SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+Process ID: 7364
+
+Current time: 	3/20/17 10:26:40 AM
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.4/tps/win64/jre
+
+User name: 	ladrift
+User directory: C:/Xilinx/xup/led_ip/ip_repo
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+Vivado preferences path: C:/Users/ladrift/AppData/Roaming/Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: C:/Users/ladrift/AppData/Roaming/Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	197 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 417 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 1.1s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cm:N (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 MB (+47668kb) [00:00:08]
+// [Engine Memory]: 349 MB (+214649kb) [00:00:08]
+// Tcl Message: open_project C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 375 MB (+27344kb) [00:00:09]
+// [Engine Memory]: 396 MB (+21684kb) [00:00:10]
+// [Engine Memory]: 416 MB (+21188kb) [00:00:11]
+// [GUI Memory]: 49 MB (+1076kb) [00:00:12]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'. 
+// [Engine Memory]: 417 MB (+1114kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 427 MB. GUI used memory: 32 MB. Current time: 3/20/17 10:26:41 AM
+// [Engine Memory]: 430 MB (+13312kb) [00:00:13]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 433 MB (+3670kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 436 MB (+2539kb) [00:00:14]
+// [Engine Memory]: 437 MB (+978kb) [00:00:14]
+// [Engine Memory]: 437 MB (+77kb) [00:00:14]
+// [Engine Memory]: 437 MB (+176kb) [00:00:14]
+// [Engine Memory]: 437 MB (+61kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 49 MB (+92kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 50 MB (+974kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 50 MB (+517kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 51 MB (+974kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 52 MB (+790kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 53 MB (+983kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 54 MB (+1004kb) [00:00:15]
+// [Engine Memory]: 438 MB (+495kb) [00:00:15]
+// [GUI Memory]: 54 MB (+487kb) [00:00:15]
+// [GUI Memory]: 55 MB (+517kb) [00:00:15]
+// [GUI Memory]: 56 MB (+974kb) [00:00:15]
+// [GUI Memory]: 56 MB (+487kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 439 MB (+1077kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 440 MB (+1617kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 442 MB (+2232kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 445 MB (+2498kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 445 MB (+319kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: edit_led_ip_v1_0; location: C:/Xilinx/xup/led_ip/ip_repo; part: xc7z010iclg225-1L
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 723.680 ; gain = 177.688 
+dismissDialog("Open Project"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // w:Y (v:I, ch:JFrame)
+// [Engine Memory]: 449 MB (+4681kb) [00:00:18]
+// cm:N (ch:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [Engine Memory]: 452 MB (+2715kb) [00:00:18]
+dismissDialog("Open Project Manager"); // cm:N (ch:JFrame)
+// cm:N (ch:JFrame):  IP Packager : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [Engine Memory]: 457 MB (+5533kb) [00:00:19]
+// [GUI Memory]: 60 MB (+3788kb) [00:00:20]
+// [Engine Memory]: 458 MB (+749kb) [00:00:20]
+// Tcl Message: ipx::open_ipxact_file C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/component.xml 
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [GUI Memory]: 61 MB (+1216kb) [00:00:21]
+// [Engine Memory]: 458 MB (+315kb) [00:00:21]
+dismissDialog("IP Packager"); // cm:N (ch:JFrame)
+// [Engine Memory]: 461 MB (+2732kb) [00:00:21]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(PAResourceEtoH.HTaxonomyChooserPanel_OPEN_IP_CATEGORY_CHOOSER_TO_SELECT_CATEGORIES, (String) null); // q:a (k:JXPanel, ch:JFrame)
+// m:at (ch:JFrame): Choose IP Categories: addNotify
+selectTree(PAResourceTtoZ.TaxonomyChooserPanel_CHECK_BOX_TREE, "[, AXI Peripheral]", 1, false); // bW:a (JViewport:JComponent, m:at)
+selectTree(PAResourceTtoZ.TaxonomyChooserPanel_CHECK_BOX_TREE, "[, AXI Peripheral]", 1, false); // bW:a (JViewport:JComponent, m:at)
+// [GUI Memory]: 61 MB (+201kb) [00:00:26]
+// [Engine Memory]: 461 MB (+503kb) [00:00:26]
+selectTree(PAResourceTtoZ.TaxonomyChooserPanel_CHECK_BOX_TREE, "[, Basic Elements]", 5, true); // bW:a (JViewport:JComponent, m:at) - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:at)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property taxonomy {/Basic_Elements /Basic_Elements/Comparators /Basic_Elements/Accumulators /Basic_Elements/Memory_Elements /Basic_Elements/Registers,_Shifters_&_Pipelining /Basic_Elements/Counters} [ipx::current_core] 
+dismissDialog("Choose IP Categories"); // m:at (ch:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // P:v (JViewport:JComponent, ch:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 18 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // P:v (JViewport:JComponent, ch:JFrame)
+// [GUI Memory]: 62 MB (+1279kb) [00:00:51]
+// [GUI Memory]: 67 MB (+5070kb) [00:00:56]
+// Elapsed time: 23 seconds
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Verilog Synthesis ;  ;  ;  ;  ; led_ip_v1_0", 1, (String) null, 4, true); // S:au (JViewport:JComponent, ch:JFrame) - Node
+// [GUI Memory]: 71 MB (+3482kb) [00:01:17]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O:a (Workspace:JPanel, ch:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 467 MB. GUI used memory: 36 MB. Current time: 3/20/17 10:27:49 AM
+// [Engine Memory]: 467 MB (+6299kb) [00:01:21]
+// [Engine Memory]: 468 MB (+335kb) [00:01:26]
+// [Engine Memory]: 472 MB (+4419kb) [00:01:52]
+// Elapsed time: 48 seconds
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Verilog Synthesis ;  ;  ;  ;  ; led_ip_v1_0", 1); // S:au (JViewport:JComponent, ch:JFrame)
+// [GUI Memory]: 71 MB (+281kb) [00:02:37]
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame) - Double Click
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // al:DockableFrame
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v)]", 1); // u:k (I:JPanel, ch:JFrame)
+// [Engine Memory]: 472 MB (+77kb) [00:02:46]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), U1 - lab3_user_logic (lab3_user_logic.v)]", 3, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), U1 - lab3_user_logic (lab3_user_logic.v)]", 3, false); // u:k (I:JPanel, ch:JFrame)
+// [Engine Memory]: 473 MB (+1146kb) [00:02:49]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), U1 - lab3_user_logic (lab3_user_logic.v)]", 3, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+// [Engine Memory]: 475 MB (+1761kb) [00:02:49]
+// [Engine Memory]: 475 MB (+16kb) [00:02:53]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v)]", 2, true); // u:k (I:JPanel, ch:JFrame) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lab3_user_logic.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+// [GUI Memory]: 73 MB (+2347kb) [00:02:57]
+// [GUI Memory]: 73 MB (+18kb) [00:03:02]
+// [GUI Memory]: 73 MB (+106kb) [00:03:07]
+// [Engine Memory]: 486 MB (+11845kb) [00:03:12]
+// Elapsed time: 19 seconds
+selectButton((HResource) null, "Package IP"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Elapsed time: 42 seconds
+selectButton(PAResourceEtoH.FileGroupFacetTable_EXPAND_ALL, "Package IP_expand_all"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame) - Double Click
+// [GUI Memory]: 73 MB (+9kb) [00:04:02]
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O:a (Workspace:JPanel, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - led_ip", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O:a (Workspace:JPanel, ch:JFrame)
+// Elapsed time: 54 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 15, true); // w:Y (v:I, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 15, true); // w:Y (v:I, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18, true); // w:Y (v:I, ch:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// aR:ad (ch:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ad)
+// cm:N (ch:JFrame):  Open Synthesized Design : addNotify
+dismissDialog("Save Project"); // aR:ad (ch:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z010iclg225-1L 
+// [Engine Memory]: 549 MB (+66265kb) [00:05:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 39 MB. Current time: 3/20/17 10:31:39 AM
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 663 MB. GUI used memory: 39 MB. Current time: 3/20/17 10:31:42 AM
+// [Engine Memory]: 665 MB (+121511kb) [00:05:14]
+// [Engine Memory]: 678 MB (+13320kb) [00:05:15]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi.loadEngineXgd elapsed time: 1.2s
+// Xgd.load filename: C:/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/zynq/xc7z010/xc7z010.xgd; ZipEntry: xc7z010_detail.xgd elapsed time: 1.5s
+// [GUI Memory]: 89 MB (+16364kb) [00:05:17]
+// [Engine Memory]: 739 MB (+64245kb) [00:05:17]
+// [GUI Memory]: 90 MB (+1144kb) [00:05:21]
+// [GUI Memory]: 91 MB (+690kb) [00:05:21]
+// TclEventType: DESIGN_NEW
+// Package: addNotify
+// [Engine Memory]: 751 MB (+12406kb) [00:05:24]
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2014.4 
+// Tcl Message: Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z010i/ClockRegion.xml Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z010i/ClockBuffers.xml Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/ClockPlacerRules.xml Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/PinFunctions.xml... Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z010i/clg225/Package.xml Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/zynq/IOStandards.xml 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers. INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers. INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// [Engine Memory]: 761 MB (+10080kb) [00:05:25]
+// Tcl Message: open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1042.520 ; gain = 301.547 
+// [Engine Memory]: 762 MB (+1949kb) [00:05:25]
+// 'dg' command handler elapsed time: 23 seconds
+// [Engine Memory]: 764 MB (+1421kb) [00:05:25]
+// [Engine Memory]: 764 MB (+258kb) [00:05:26]
+// [Engine Memory]: 768 MB (+4603kb) [00:05:26]
+// Elapsed time: 19 seconds
+dismissDialog("Open Synthesized Design"); // cm:N (ch:JFrame)
+// [Engine Memory]: 769 MB (+901kb) [00:05:26]
+// [GUI Memory]: 92 MB (+1301kb) [00:05:29]
+// [Engine Memory]: 773 MB (+4153kb) [00:05:29]
+// [GUI Memory]: 93 MB (+1407kb) [00:05:29]
+// [Engine Memory]: 774 MB (+1089kb) [00:05:29]
+// [Engine Memory]: 779 MB (+5447kb) [00:05:30]
+// [Engine Memory]: 799 MB (+20606kb) [00:05:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 809 MB. GUI used memory: 68 MB. Current time: 3/20/17 10:32:04 AM
+// [Engine Memory]: 818 MB (+19427kb) [00:05:40]
+// RouteApi.initDelayMediator elapsed time: 18.1s
+// [Engine Memory]: 1,127 MB (+324251kb) [00:05:44]
+// Elapsed time: 64 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (ch:JFrame): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files..."); // a:JButton (H:JPanel, b:g)
+setFileChooser("C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // b:g (ch:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc 
+// [GUI Memory]: 94 MB (+633kb) [00:06:43]
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h:k (JPanel:JComponent, ch:JFrame)
+// cm:N (ch:JFrame):  Reloading : addNotify
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,127 MB. GUI used memory: 69 MB. Current time: 3/20/17 10:33:14 AM
+// Engine heap size: 1,127 MB. GUI used memory: 69 MB. Current time: 3/20/17 10:33:15 AM
+// Tcl Message: refresh_design 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,127 MB. GUI used memory: 47 MB. Current time: 3/20/17 10:33:17 AM
+// Xgd.load filename: C:/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/zynq/xc7z010/xc7z010.xgd; ZipEntry: xc7z010_detail.xgd elapsed time: 0.7s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi.loadEngineXgd elapsed time: 0.8s
+// Package: addNotify
+// Device: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers. INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers. 
+// Tcl Message: Parsing XDC File [C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1388.184 ; gain = 0.000 
+// Elapsed time: 11 seconds
+dismissDialog("Reloading"); // cm:N (ch:JFrame)
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, 3747, 3200); // y:C (JViewport:JComponent, ch:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 754, 448, 987, 504); // x:aG (TdiGroup:JideTabbedPane, ch:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5); // u:k (I:JPanel, ch:JFrame)
+// [GUI Memory]: 98 MB (+4075kb) [00:07:08]
+// [GUI Memory]: 103 MB (+5586kb) [00:07:09]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab3_zybo.xdc]", 7, false); // u:k (I:JPanel, ch:JFrame)
+// [GUI Memory]: 107 MB (+4174kb) [00:07:09]
+// [GUI Memory]: 108 MB (+698kb) [00:07:09]
+// [GUI Memory]: 109 MB (+1389kb) [00:07:09]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab3_zybo.xdc]", 7, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 109 MB (+482kb) [00:07:10]
+// [Engine Memory]: 1,143 MB (+16527kb) [00:07:12]
+// [Engine Memory]: 1,144 MB (+1134kb) [00:07:13]
+// [Engine Memory]: 1,144 MB (+65kb) [00:07:13]
+// [Engine Memory]: 1,145 MB (+1458kb) [00:07:13]
+// [Engine Memory]: 1,154 MB (+9637kb) [00:07:13]
+// RouteApi.initDelayMediator elapsed time: 17s
+// [GUI Memory]: 111 MB (+1365kb) [00:07:15]
+// [GUI Memory]: 115 MB (+4651kb) [00:07:15]
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (12) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 11); // L:au (JViewport:JComponent, ch:JFrame)
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (12) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 11); // L:au (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (12) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 11, "Scalar ports (12)", 0, true); // L:au (JViewport:JComponent, ch:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,154 MB. GUI used memory: 76 MB. Current time: 3/20/17 10:33:45 AM
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (12) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 11); // L:au (JViewport:JComponent, ch:JFrame)
+// [Engine Memory]: 1,157 MB (+2666kb) [00:07:19]
+// [Engine Memory]: 1,164 MB (+7569kb) [00:07:19]
+// [Engine Memory]: 1,170 MB (+6184kb) [00:07:19]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab3_zybo.xdc]", 7, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab3_zybo.xdc]", 7, false, false, false, false, true, false); // u:k (I:JPanel, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// ay:N (ch:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ay:N)
+// [GUI Memory]: 116 MB (+321kb) [00:07:29]
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+dismissDialog("Remove Sources"); // ay:N (ch:JFrame)
+// Device view-level: 0.0
+// ay:N (ch:JFrame): Remove Sources: addNotify
+// cm:N (ay:N):  Remove Sources : addNotify
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,173 MB (+2981kb) [00:07:29]
+// [Engine Memory]: 1,178 MB (+5218kb) [00:07:30]
+// Tcl Message: remove_files -fileset constrs_1 C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc 
+// [GUI Memory]: 119 MB (+3580kb) [00:07:30]
+// [Engine Memory]: 1,178 MB (+208kb) [00:07:30]
+// [Engine Memory]: 1,179 MB (+921kb) [00:07:30]
+dismissDialog("Remove Sources"); // cm:N (ay:N)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,179 MB. GUI used memory: 78 MB. Current time: 3/20/17 10:33:58 AM
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h:k (JPanel:JComponent, ch:JFrame)
+// cm:N (ch:JFrame):  Reloading : addNotify
+// TclEventType: DESIGN_REFRESH
+// [Engine Memory]: 1,180 MB (+716kb) [00:07:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,180 MB. GUI used memory: 71 MB. Current time: 3/20/17 10:34:00 AM
+// Engine heap size: 1,180 MB. GUI used memory: 72 MB. Current time: 3/20/17 10:34:00 AM
+// Tcl Message: refresh_design 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,180 MB. GUI used memory: 50 MB. Current time: 3/20/17 10:34:02 AM
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi.loadEngineXgd elapsed time: 0.5s
+// Package: addNotify
+// Device: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers. INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers. INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1436.086 ; gain = 0.000 
+// Device view-level: 0.0
+// Elapsed time: 10 seconds
+dismissDialog("Reloading"); // cm:N (ch:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // w:Y (v:I, ch:JFrame)
+// cm:N (ch:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+dismissDialog("Open Project Manager"); // cm:N (ch:JFrame)
+// RouteApi.initDelayMediator elapsed time: 16.2s
+// [Engine Memory]: 1,194 MB (+15097kb) [00:07:58]
+// Elapsed time: 24 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // P:v (JViewport:JComponent, ch:JFrame)
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Verilog Synthesis ;  ;  ;  ;  ; led_ip_v1_0", 1); // S:au (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Verilog Synthesis ;  ;  ;  ;  ; led_ip_v1_0", 1, "Verilog Synthesis", 0, true); // S:au (JViewport:JComponent, ch:JFrame) - Node
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Verilog Synthesis ;  ;  ;  ;  ; led_ip_v1_0", 1, "Verilog Synthesis", 0, true, false, false, false, true, false); // S:au (JViewport:JComponent, ch:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_ADD_FILES, "Add Files..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// h:ac (ch:JFrame): Add IP Files (Verilog Synthesis): addNotify
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // a:JButton (H:JPanel, h:ac)
+setFileChooser("C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, h:ac)
+dismissDialog("Add IP Files (Verilog Synthesis)"); // h:ac (ch:JFrame)
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: ipx::add_file ../lab3_user_logic.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]] 
+// Tcl Message: set_property type verilogSource [ipx::get_files ../lab3_user_logic.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]] 
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property library_name xil_defaultlib [ipx::get_files ../lab3_user_logic.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 23 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // P:v (JViewport:JComponent, ch:JFrame)
+// Elapsed time: 34 seconds
+selectTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false); // S:au (JViewport:JComponent, ch:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_PARAMETER_IMPORT, "Import IP Parameters..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_PARAMETER_IMPORT
+// ab:at (ch:JFrame): Import Parameters from HDL: addNotify
+setText(PAResourceItoN.ImportParametersDialog_CHOOSE_TOP_LEVEL_SOURCE_FILE, "C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v"); // an:JTextField (aO:JPanel, ab:at)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ab:at)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// 't' command handler elapsed time: 5 seconds
+// [GUI Memory]: 119 MB (+258kb) [00:09:31]
+// Tcl Message: ipx::remove_all_hdl_parameter [ipx::current_core] 
+// Tcl Message: ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0 
+// Tcl Message: ERROR: [IP_Flow 19-264] [HDL Parser] No interface information is available for Verilog design unit 'led_ip_v1_0'. ERROR: [IP_Flow 19-262] [HDL Parser] Failed to parse top module entity.  This can result from an empty entity or module declaration (i.e. no ports or parameters/generics).  Check that design unit "led_ip_v1_0" of HDL file "C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v" is not empty. ERROR: [IP_Flow 19-258] [HDL Parser] Error parsing HDL file 'C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v'. 
+// Tcl Message: ERROR: [Common 17-39] 'ipx::add_model_parameters_from_hdl' failed due to earlier errors. 
+dismissDialog("Import Parameters from HDL"); // ab:at (ch:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false); // S:au (JViewport:JComponent, ch:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_PARAMETER_IMPORT, "Import IP Parameters..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_PARAMETER_IMPORT
+// ab:at (ch:JFrame): Import Parameters from HDL: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ab:at)
+dismissDialog("Import Parameters from HDL"); // ab:at (ch:JFrame)
+selectTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false); // S:au (JViewport:JComponent, ch:JFrame) - Popup Trigger
+selectTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false); // S:au (JViewport:JComponent, ch:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_PARAMETER_IMPORT, "Import IP Parameters..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_PARAMETER_IMPORT
+// ab:at (ch:JFrame): Import Parameters from HDL: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ab:at)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// 't' command handler elapsed time: 3 seconds
+// Tcl Message: ipx::remove_all_hdl_parameter [ipx::current_core] 
+// Tcl Message: ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0 
+// Tcl Message: ERROR: [IP_Flow 19-264] [HDL Parser] No interface information is available for Verilog design unit 'led_ip_v1_0'. ERROR: [IP_Flow 19-262] [HDL Parser] Failed to parse top module entity.  This can result from an empty entity or module declaration (i.e. no ports or parameters/generics).  Check that design unit "led_ip_v1_0" of HDL file "C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v" is not empty. ERROR: [IP_Flow 19-258] [HDL Parser] Error parsing HDL file 'C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v'. 
+// Tcl Message: ERROR: [Common 17-39] 'ipx::add_model_parameters_from_hdl' failed due to earlier errors. 
+dismissDialog("Import Parameters from HDL"); // ab:at (ch:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // P:v (JViewport:JComponent, ch:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_ERROR_MESSAGES, "5 errors"); // h:k (JPanel:JComponent, ch:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // P:v (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "../lab3_user_logic.v ; xil_defaultlib ; verilogSource ; false ; xilinx_verilogsynthesis ; ", 4, "../lab3_user_logic.v", 0, false); // S:au (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "../lab3_user_logic.v ; xil_defaultlib ; verilogSource ; false ; xilinx_verilogsynthesis ; ", 4, "../lab3_user_logic.v", 0, false, false, false, false, true, false); // S:au (JViewport:JComponent, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceEtoH.FileGroupFacetTable_COPY_TO, "Copy To"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_REMOVE_FILE, "Remove File"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// Tcl Message: ipx::remove_file ../lab3_user_logic.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]] 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // P:v (JViewport:JComponent, ch:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // P:v (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false); // S:au (JViewport:JComponent, ch:JFrame) - Popup Trigger
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false); // S:au (JViewport:JComponent, ch:JFrame) - Popup Trigger
+selectTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false); // S:au (JViewport:JComponent, ch:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_PARAMETER_IMPORT, "Import IP Parameters..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_PARAMETER_IMPORT
+// ab:at (ch:JFrame): Import Parameters from HDL: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ab:at)
+selectButton(PAResourceItoN.ImportParametersDialog_CHOOSE_TOP_LEVEL_SOURCE_FILE, (String) null); // q:a (aO:JPanel, ab:at)
+setFileChooser("C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ab:at)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// 't' command handler elapsed time: 14 seconds
+// Tcl Message: ipx::remove_all_hdl_parameter [ipx::current_core] 
+// Tcl Message: ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0 
+// Tcl Message: ERROR: [IP_Flow 19-264] [HDL Parser] No interface information is available for Verilog design unit 'led_ip_v1_0'. ERROR: [IP_Flow 19-262] [HDL Parser] Failed to parse top module entity.  This can result from an empty entity or module declaration (i.e. no ports or parameters/generics).  Check that design unit "led_ip_v1_0" of HDL file "C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v" is not empty. ERROR: [IP_Flow 19-258] [HDL Parser] Error parsing HDL file 'C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v'. 
+// Tcl Message: ERROR: [Common 17-39] 'ipx::add_model_parameters_from_hdl' failed due to earlier errors. 
+dismissDialog("Import Parameters from HDL"); // ab:at (ch:JFrame)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // P:v (JViewport:JComponent, ch:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // P:v (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false); // S:au (JViewport:JComponent, ch:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_PARAMETER_IMPORT, "Import IP Parameters..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_PARAMETER_IMPORT
+// ab:at (ch:JFrame): Import Parameters from HDL: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ab:at)
+// 't' command handler elapsed time: 4 seconds
+dismissDialog("Import Parameters from HDL"); // ab:at (ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), U1 - lab3_user_logic (lab3_user_logic.v)]", 3, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v), U1 - lab3_user_logic (lab3_user_logic.v)]", 3, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v)]", 2, true); // u:k (I:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v)]", 2, true, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v)]", 1, true); // u:k (I:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v)]", 1, true, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 119 MB (+93kb) [00:10:47]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v)]", 1); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v)]", 2, true); // u:k (I:JPanel, ch:JFrame) - Node
+// [GUI Memory]: 121 MB (+2091kb) [00:10:49]
+// [GUI Memory]: 123 MB (+1477kb) [00:10:49]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip_v1_0 (led_ip_v1_0.v), led_ip_v1_0_S_AXI_inst - led_ip_v1_0_S_AXI (led_ip_v1_0_S_AXI.v)]", 2, true, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click - Node
+selectCodeEditor("led_ip_v1_0_S_AXI.v", 313, 207); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 14 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0. , [IP_Flow 19-264] [HDL Parser] No interface information is available for Verilog design unit 'led_ip_v1_0'.. ]", 9, false); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0. , [IP_Flow 19-262] [HDL Parser] Failed to parse top module entity.  This can result from an empty entity or module declaration (i.e. no ports or parameters/generics).  Check that design unit led_ip_v1_0 of HDL file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v is not empty.. ]", 10, false); // ae:k (JViewport:JComponent, ch:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 12, false); // w:Y (v:I, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// d:cm (ch:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'led_ip_v1_0' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.sim/sim_1/behav' 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, d:cm)
+// Tcl Message: "xvlog -m64 -prj led_ip_v1_0_vlog.prj" 
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: INFO: [Common 17-344] 'run_program' was cancelled 
+// Tcl Message: 1     while executing "catch {rdi::run_program $scr_file} error_log"     (procedure "::tclapp::xilinx::xsim::usf_launch_script" line 35)     invoked from within "::tclapp::xilinx::xsim::usf_launch_script "xsim" $step"     (procedure "tclapp::xilinx::xsim::compile" line 13)     invoked from within "tclapp::xilinx::xsim::compile { -simset sim_1 -mode behavioral -run_dir {C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.sim/sim_1/behav} -int_os_type 6..." 
+// Tcl Message: INFO: [Common 17-344] 'launch_simulation' was cancelled 
+dismissDialog("Run Simulation"); // d:cm (ch:JFrame)
+// [GUI Memory]: 124 MB (+1055kb) [00:11:15]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// aR:ad (ch:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ad)
+// cm:N (ch:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aR:ad (ch:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILE_SET_CHANGE
+// cm:N (ch:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Mar 20 10:37:45 2017] Launched synth_1... Run output will be captured here: C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.runs/synth_1/runme.log 
+// [GUI Memory]: 124 MB (+96kb) [00:11:18]
+dismissDialog("Starting Design Runs"); // cm:N (ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip_v1_0.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// [GUI Memory]: 126 MB (+2195kb) [00:11:27]
+// [GUI Memory]: 128 MB (+2329kb) [00:11:30]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip_v1_0_S_AXI.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// Q:al (ch:JFrame): Synthesis Completed: addNotify
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a:JRadioButton (JPanel:JComponent, Q:al)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:al)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// cm:N (ch:JFrame):  Reloading design : addNotify

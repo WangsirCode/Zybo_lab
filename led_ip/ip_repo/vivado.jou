@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Mar 20 10:26:22 2017
+# Process ID: 7364
+# Log file: C:/Xilinx/xup/led_ip/ip_repo/vivado.log
+# Journal file: C:/Xilinx/xup/led_ip/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/xup/led_ip/ip_repo/edit_led_ip_v1_0.xpr
+ipx::open_ipxact_file C:/Xilinx/xup/led_ip/ip_repo/led_ip_1.0/component.xml
+set_property taxonomy {/Basic_Elements /Basic_Elements/Comparators /Basic_Elements/Accumulators /Basic_Elements/Memory_Elements /Basic_Elements/Registers,_Shifters_&_Pipelining /Basic_Elements/Counters} [ipx::current_core]
+open_run synth_1 -name synth_1
+add_files -fileset constrs_1 -norecurse C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc
+refresh_design
+remove_files -fileset constrs_1 C:/Xilinx/xup/led_ip/ip_repo/lab3_zybo.xdc
+refresh_design
+ipx::add_file ../lab3_user_logic.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../lab3_user_logic.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../lab3_user_logic.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+ipx::remove_all_hdl_parameter [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0
+ipx::remove_all_hdl_parameter [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0
+ipx::remove_file ../lab3_user_logic.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+ipx::remove_all_hdl_parameter [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Xilinx/xup/led_ip/ip_repo/lab3_user_logic.v -top_module_name led_ip_v1_0
+launch_simulation
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_design
