@@ -1,0 +1,293 @@
+//pingpong template file for ECE530 Lab #6
+//Pingpong game by Keith Hoover
+//Version 2 to use loops and arrays
+//Revised by Jianjian Song to add pressing early penalty, 3-23-2016
+#include "xparameters.h"
+#include "xgpio.h"
+#include "led_ip.h"
+#include "xtmrctr.h"
+#include "xscugic.h"
+#include "xil_exception.h"
+// Include scutimer header file
+#include "XScuTimer.h"
+//====================================================
+XScuTimer Timer;		/* Cortex A9 SCU Private Timer Instance */
+#define ONE_TENTH 0x1F8000000
+#define START 1
+#define BTN_INT 			XGPIO_IR_CH1_MASK
+#define STOP 0
+#define LEFT 0
+#define RIGHT 1
+#define RESETBUTTON 0b0100
+#define STARTBUTTON 0b0010
+#define LEFTPADDLE 0b1000
+#define RIGHTPADDLE 0b0001
+#define RIGHT_INIT_STATE 0
+#define LEFT_INIT_STATE 3
+#define END_STATE -1
+#define LEFT_END 0
+#define RIGHT_END 3
+
+int psb_check, dip_check, LedState, Status,count,dip_check_prev;
+XGpio dip, push;
+
+XTmrCtr TMRInst;
+
+XScuGic INTCInst;
+// PS Timer related definitions
+XScuTimer_Config *ConfigPtr;
+XScuTimer *TimerInstancePtr = &Timer;
+
+
+int LED_PATTERNS[4]={0b0001, 0b0010, 0b0100,0b1000};
+int scoreright, scoreleft;
+char GameOver, StartDirection,LEDDirection;
+int initialize();
+void setStatus();
+void setTimer();
+void setLED();
+static void BTN_Intr_Handler(void *baseaddr_p);
+static void TMR_Intr_Handler(void *baseaddr_p);
+static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+static int IntcInitFunction(u16 DeviceId, XTmrCtr *TmrInstancePtr, XGpio *GpioInstancePtr);
+
+void BTN_Intr_Handler(void *InstancePtr)
+{   //This interrupt handler is entered on ANY change in pushbutton status
+	//Therefore when one or more buttons pressed, the corresponding LED(s) turn on.
+	//Also, note that the LEDs all go off when all the buttons are released.
+
+	// Disable GPIO interrupts
+	XGpio_InterruptDisable(&push, BTN_INT);
+	// Ignore additional button presses
+	if ((XGpio_InterruptGetStatus(&push) & BTN_INT) !=
+			BTN_INT) {
+			return;
+		}
+	psb_check = XGpio_DiscreteRead(&push, 1);
+	xil_printf("button value = %d\r\n",psb_check);
+	setStatus();
+    (void)XGpio_InterruptClear(&push, BTN_INT);
+    // Enable GPIO interrupts
+    XGpio_InterruptEnable(&push, BTN_INT);
+}
+
+void TMR_Intr_Handler(void *data)
+{
+	if (XTmrCtr_IsExpired(&TMRInst,0)){
+		// Once timer has expired 3 times, stop, increment counter
+		// reset timer and start running again
+		xil_printf("timer interrupt!.\n");
+		setLED();
+		XTmrCtr_Reset(&TMRInst,0);
+		XTmrCtr_Start(&TMRInst,0);
+	}
+}
+int main (void)
+{
+	//initialize variables, timers, ports
+	initialize();
+
+	while (1)
+	{
+		dip_check = XGpio_DiscreteRead(&dip, 1);
+		if (dip_check != dip_check_prev)
+		{
+			setTimer();
+		}
+	}
+
+}
+void setStatus()
+{
+	switch(psb_check)
+	{
+		case RESETBUTTON:
+			GameOver = STOP;
+			scoreright = 0;
+			scoreleft = 0;
+			xil_printf("Score Left = %d   Score Right = %d\r\n", scoreright, scoreleft);
+			break;
+		case STARTBUTTON:
+			GameOver = START;
+			if(StartDirection == LEFT)
+			{
+				StartDirection = RIGHT;
+				LEDDirection = RIGHT;
+				LedState = RIGHT_INIT_STATE;
+			}
+			else
+			{
+				StartDirection = LEFT;
+				LEDDirection = LEFT;
+				LedState = LEFT_INIT_STATE;
+			}
+			xil_printf("Score Left = %d   Score Right = %d\r\n", scoreright, scoreleft);
+			break;
+		case LEFTPADDLE:
+			if(LEDDirection == RIGHT)
+			{
+				if(LedState == RIGHT_END)
+				{
+					LEDDirection = LEFT;
+				}
+				else
+				{
+					GameOver = STOP;
+					scoreright += 1;
+				}
+			}
+			break;
+		case RIGHTPADDLE:
+			if(LEDDirection == LEFT)
+			{
+				if(LedState == LEFT_END)
+				{
+					LEDDirection = RIGHT;
+				}
+				else
+				{
+					GameOver = STOP;
+					scoreleft += 1;
+				}
+			}
+			break;
+		default:
+			break;
+	}
+}
+void setTimer()
+{
+	xil_printf("DIP Switch Status %x, %x\r\n", dip_check_prev, dip_check);
+	dip_check_prev = dip_check;
+	// load timer with the new switch settings
+	XTmrCtr_SetResetValue(&TMRInst, 0, ONE_TENTH*dip_check);
+}
+void setLED()
+{
+	if(GameOver == STOP)
+	{
+		LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 0);
+	}
+	else
+	{
+		if(LEDDirection == RIGHT)
+		{
+			LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, LED_PATTERNS[LedState]);
+			if(LedState == RIGHT_END)
+			{
+				GameOver = STOP;
+				scoreleft += 1;
+			}
+			else
+			{
+				LedState += 1;
+			}
+//			LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, LED_PATTERNS[LedState]);
+		}
+		else
+		{
+			LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, LED_PATTERNS[LedState]);
+			if(LedState == LEFT_END)
+			{
+				GameOver = STOP;
+				scoreright += 1;
+			}
+			else
+			{
+				LedState -= 1;
+			}
+//			LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, LED_PATTERNS[LedState]);
+		}
+	}
+}
+int initialize()
+{
+	int status;
+	xil_printf("-- Start of the Ping Pong Program --\r\n");
+	GameOver=START;
+	scoreright = 0; scoreleft = 0;
+	xil_printf("Score Left = %d   Score Right = %d\r\n", scoreright, scoreleft);
+	StartDirection=LEFT;
+	LEDDirection = LEFT;
+	XGpio_Initialize(&dip, XPAR_SWITCHES_DEVICE_ID);
+	XGpio_SetDataDirection(&dip, 1, 0xffffffff);
+
+	XGpio_Initialize(&push, XPAR_BUTTONS_DEVICE_ID);
+	XGpio_SetDataDirection(&push, 1, 0xffffffff);
+
+	status = XTmrCtr_Initialize(&TMRInst, XPAR_TMRCTR_0_DEVICE_ID);
+	if(status != XST_SUCCESS) return XST_FAILURE;
+	XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+	dip_check = XGpio_DiscreteRead(&dip, 1);
+	XTmrCtr_SetResetValue(&TMRInst, 0, ONE_TENTH*dip_check);
+	XTmrCtr_SetOptions(&TMRInst, 0, XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION);
+
+
+	// Initialize interrupt controller
+	status = IntcInitFunction(XPAR_PS7_SCUGIC_0_DEVICE_ID, &TMRInst, &push);
+	if(status != XST_SUCCESS) return XST_FAILURE;
+
+	XTmrCtr_Start(&TMRInst, 0);
+
+
+}
+//----------------------------------------------------
+// INITIAL SETUP FUNCTIONS
+//----------------------------------------------------
+
+int InterruptSystemSetup(XScuGic *XScuGicInstancePtr)
+{
+	// Enable interrupt
+	XGpio_InterruptEnable(&push, XPAR_BUTTONS_DEVICE_ID);
+	XGpio_InterruptGlobalEnable(&push);
+
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
+			 	 	 	 	 	 (Xil_ExceptionHandler)XScuGic_InterruptHandler,
+			 	 	 	 	 	 XScuGicInstancePtr);
+	Xil_ExceptionEnable();
+
+
+	return XST_SUCCESS;
+
+}
+int IntcInitFunction(u16 DeviceId, XTmrCtr *TmrInstancePtr, XGpio *GpioInstancePtr)
+{
+	XScuGic_Config *IntcConfig;
+	int status;
+
+	// Interrupt controller initialisation
+	IntcConfig = XScuGic_LookupConfig(DeviceId);
+	status = XScuGic_CfgInitialize(&INTCInst, IntcConfig, IntcConfig->CpuBaseAddress);
+	if(status != XST_SUCCESS) return XST_FAILURE;
+
+	// Call to interrupt setup
+	status = InterruptSystemSetup(&INTCInst);
+	if(status != XST_SUCCESS) return XST_FAILURE;
+
+	// Connect GPIO interrupt to handler
+	status = XScuGic_Connect(&INTCInst,
+			XPAR_FABRIC_BUTTONS_IP2INTC_IRPT_INTR,
+					  	  	 (Xil_ExceptionHandler)BTN_Intr_Handler,
+					  	  	 (void *)GpioInstancePtr);
+	if(status != XST_SUCCESS) return XST_FAILURE;
+
+
+	// Connect timer interrupt to handler
+	status = XScuGic_Connect(&INTCInst,
+			XPAR_FABRIC_AXI_TIMER_0_INTERRUPT_INTR,
+							 (Xil_ExceptionHandler)TMR_Intr_Handler,
+							 (void *)TmrInstancePtr);
+	if(status != XST_SUCCESS) return XST_FAILURE;
+
+	// Enable GPIO interrupts interrupt
+	XGpio_InterruptEnable(GpioInstancePtr, 1);
+	XGpio_InterruptGlobalEnable(GpioInstancePtr);
+
+	// Enable GPIO and timer interrupts in the controller
+	XScuGic_Enable(&INTCInst, XPAR_FABRIC_BUTTONS_IP2INTC_IRPT_INTR);
+
+	XScuGic_Enable(&INTCInst, XPAR_FABRIC_AXI_TIMER_0_INTERRUPT_INTR);
+
+
+	return XST_SUCCESS;
+}

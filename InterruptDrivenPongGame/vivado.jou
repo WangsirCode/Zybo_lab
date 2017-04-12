@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Mar 29 08:52:33 2017
+# Process ID: 12160
+# Log file: C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/vivado.log
+# Journal file: C:/Users/Wangsir/Documents/SOC/xup/lab8SoC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.xpr
+save_project_as lab9SoC C:/Users/Wangsir/Documents/SOC/xup/lab9SoC -force
+open_bd_design {C:/Users/Wangsir/Documents/SOC/xup/lab9SoC/lab9SoC.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list CONFIG.PCW_IRQ_F2P_INTR {0}] [get_bd_cells processing_system7_0]
+delete_bd_objs [get_bd_nets xlconcat_0_dout]
+endgroup
+delete_bd_objs [get_bd_nets buttons_ip2intc_irpt] [get_bd_nets axi_timer_0_interrupt] [get_bd_cells xlconcat_0]
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets processing_system7_0_axi_periph_M00_AXI] [get_bd_intf_nets processing_system7_0_axi_periph_M01_AXI] [get_bd_nets rst_processing_system7_0_100M_interconnect_aresetn] [get_bd_intf_nets processing_system7_0_axi_periph_M03_AXI] [get_bd_intf_nets processing_system7_0_axi_periph_M04_AXI] [get_bd_intf_nets processing_system7_0_axi_periph_M02_AXI] [get_bd_cells processing_system7_0_axi_periph]
+delete_bd_objs [get_bd_cells axi_timer_0]
+delete_bd_objs [get_bd_intf_nets buttons_GPIO] [get_bd_cells buttons]
+delete_bd_objs [get_bd_intf_nets switches_GPIO] [get_bd_cells switches]
+delete_bd_objs [get_bd_nets led_ip_LED] [get_bd_cells led_ip]
+delete_bd_objs [get_bd_nets rst_processing_system7_0_100M_peripheral_aresetn] [get_bd_intf_nets axi_bram_ctrl_0_BRAM_PORTA] [get_bd_cells axi_bram_ctrl_0]
+delete_bd_objs [get_bd_cells axi_bram_ctrl_0_bram]
+delete_bd_objs [get_bd_intf_ports btns_4bits]
+delete_bd_objs [get_bd_intf_ports sws_4bits]
+delete_bd_objs [get_bd_intf_nets processing_system7_0_DDR] [get_bd_intf_ports DDR]
+delete_bd_objs [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_ports FIXED_IO]
+delete_bd_objs [get_bd_ports LED]
+delete_bd_objs [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_cells rst_processing_system7_0_100M]
+delete_bd_objs [get_bd_nets processing_system7_0_FCLK_CLK0]
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+startgroup
+set_property -dict [list CONFIG.PCW_QSPI_PERIPHERAL_ENABLE {0} CONFIG.PCW_ENET0_PERIPHERAL_ENABLE {0} CONFIG.PCW_SD0_PERIPHERAL_ENABLE {0} CONFIG.PCW_USB0_PERIPHERAL_ENABLE {0} CONFIG.PCW_USB_RESET_ENABLE {0} CONFIG.PCW_I2C0_PERIPHERAL_ENABLE {1} CONFIG.PCW_I2C0_I2C0_IO {MIO 14 .. 15} CONFIG.PCW_I2C1_PERIPHERAL_ENABLE {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.PCW_TTC0_PERIPHERAL_ENABLE {0}] [get_bd_cells processing_system7_0]
+endgroup
+generate_target all [get_files C:/Users/Wangsir/Documents/SOC/xup/lab9SoC/lab9SoC.srcs/sources_1/bd/system/system.bd]
+startgroup
+set_property -dict [list CONFIG.PCW_USE_M_AXI_GP0 {0} CONFIG.PCW_EN_CLK0_PORT {0}] [get_bd_cells processing_system7_0]
+endgroup
+validate_bd_design
+generate_target all [get_files C:/Users/Wangsir/Documents/SOC/xup/lab9SoC/lab9SoC.srcs/sources_1/bd/system/system.bd]
+synth_design -rtl -name rtl_1
+open_bd_design {C:/Users/Wangsir/Documents/SOC/xup/lab9SoC/lab9SoC.srcs/sources_1/bd/system/system.bd}
+startgroup
+create_bd_intf_port -mode Master -vlnv xilinx.com:interface:iic_rtl:1.0 IIC_1
+connect_bd_intf_net [get_bd_intf_pins processing_system7_0/IIC_1] [get_bd_intf_ports IIC_1]
+endgroup
+save_bd_design
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+refresh_design
+set_property package_pin "" [get_ports [list  iic_1_sda_io]]
+place_ports iic_1_scl_io V20
+place_ports iic_1_sda_io W20
+set_property IOSTANDARD LVCMOS33 [get_ports [list iic_1_scl_io]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list iic_1_sda_io]]
+set_property target_constrs_file C:/Users/Wangsir/Documents/SOC/xup/lab9SoC/lab9SoC.srcs/constrs_1/imports/lab3/lab3_zybo.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+file mkdir C:/Users/Wangsir/Documents/SOC/xup/lab9SoC/lab9SoC.sdk
+file copy -force C:/Users/Wangsir/Documents/SOC/xup/lab9SoC/lab9SoC.runs/impl_1/system_wrapper.sysdef C:/Users/Wangsir/Documents/SOC/xup/lab9SoC/lab9SoC.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/Wangsir/Documents/SOC/xup/lab9SoC/lab9SoC.sdk -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab9SoC/lab9SoC.sdk/system_wrapper.hdf

@@ -1,0 +1,21 @@
+08:58:56 **** Build of configuration Debug for project lab6SoC ****
+make all 
+'Building file: ../lab5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab5.o" -I../../lab6SoC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab5.d" -MT"lab5.d" -o "lab5.o" "../lab5.c"
+'Finished building: ../lab5.c'
+' '
+'Building target: lab6SoC.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab6SoC_bsp/ps7_cortexa9_0/lib -o "lab6SoC.elf"  ./lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab6SoC.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab6SoC.elf  |tee "lab6SoC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25272	   1200	  22580	  49052	   bf9c	lab6SoC.elf
+'Finished building: lab6SoC.elf.size'
+' '
+
+08:58:58 Build Finished (took 1s.665ms)
+

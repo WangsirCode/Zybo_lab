@@ -1,0 +1,549 @@
+14:38:18 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab5part2_wyh/lab5part2_wyh.sdk/system_wrapper.hdf.
+14:38:35 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:46:25 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab5part2_wyh/lab5part2_wyh.sdk/system_wrapper.hdf.
+14:46:26 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:46:27 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+14:46:27 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+14:49:27 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab5part2_wyh/lab5part2_wyh.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:50:24 INFO  : ps7_init is completed.
+14:50:25 INFO  : ps7_post_config is completed.
+14:50:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:51:14 INFO  : Inferring section assignments and sizes from elf file: C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2\Debug\lab5part2.elf
+14:52:00 INFO  : Successfully generated C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2\src\lscript.ld.
+14:52:00 INFO  : Applying linker script to all configurations of project lab5part2.
+14:52:00 INFO  : Setting rebuild state to true for all configurations of project lab5part2.
+14:53:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:53:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:00:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:49:30 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab5part2_wyh/lab5part2_wyh.sdk/system_wrapper.hdf.
+07:49:31 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+07:49:32 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+07:49:32 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+07:50:56 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab5part2_wyh/lab5part2_wyh.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+07:51:15 INFO  : ps7_init is completed.
+07:51:15 INFO  : ps7_post_config is completed.
+07:51:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:04:15 INFO  : Inferring section assignments and sizes from elf file: C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2\Debug\lab5part2.elf
+09:57:21 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab6SoC/lab6SoC.sdk/system_wrapper.hdf.
+09:57:23 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+09:57:24 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+09:58:29 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2_bsp\system.mss
+09:58:29 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2_bsp\system.mss
+09:58:29 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2_bsp\system.mss
+ [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2_bsp\system.mss
+09:58:52 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2_bsp\system.mss
+09:58:52 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2_bsp\system.mss
+09:58:52 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2_bsp\system.mss
+09:58:52 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2_bsp\system.mss
+ [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2_bsp\system.mss
+10:00:28 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab6SoC/lab6SoC.sdk/system_wrapper.hdf.
+10:00:32 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+10:00:32 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+10:00:33 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+10:00:44 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/lab5part2_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:248)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+10:00:44 ERROR : Unexpected error while obtaining referenced S/W project {}
+org.eclipse.core.internal.resources.ResourceException: Resource '/lab5part2_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+	at com.xilinx.sdk.sw.SwProjectUtils.getReferencedSwProject(SwProjectUtils.java:248)
+	at com.xilinx.sdk.tools.internal.CProjectPropertyTester.test(CProjectPropertyTester.java:31)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.isVisible(ContributionsAnalyzer.java:247)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.computeVisibility(ContributionRecord.java:166)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:96)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:125)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:54)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:476)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4964)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+10:02:28 INFO  : Project lab6SoC_bsp was a BSP project. Please update references.
+10:02:28 ERROR : SDK has detected that project lab6SoC_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references.
+10:02:32 ERROR : Unexpected exception while retrieving referenced projects for lab6SoC_bsp.
+org.eclipse.core.internal.resources.ResourceException: Resource '/lab6SoC_bsp' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:147)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+	at com.xilinx.sdk.sw.internal.BSPImporter.referencedHwProjectExists(BSPImporter.java:169)
+	at com.xilinx.sdk.sw.internal.BSPImporter.access$0(BSPImporter.java:166)
+	at com.xilinx.sdk.sw.internal.BSPImporter$SwReposUpdateJob.runInUIThread(BSPImporter.java:136)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+10:02:32 ERROR : The Hardware Project referenced by this BSP (lab6SoC_bsp) was not found in this workspace. As a result, this BSP will not build properly. To fix this error, please import the associated hardware project or recreate a new BSP targeting an existing hardware platform.
+10:10:21 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab6SoC/lab6SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:11:08 INFO  : ps7_init is completed.
+10:11:08 INFO  : ps7_post_config is completed.
+10:11:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:16:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:17:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:20:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:20:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:25:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:25:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:25:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:25:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:10:04 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab6SoC/lab6SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:10:49 INFO  : ps7_init is completed.
+11:10:49 INFO  : ps7_post_config is completed.
+11:10:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:13:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:13:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:13:53 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+11:19:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:30:36 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab6SoC/lab6SoC.sdk/system_wrapper.hdf.
+11:30:38 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:30:39 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+11:30:39 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+11:51:49 INFO  : Inferring section assignments and sizes from elf file: C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC\Debug\lab6SoC.elf
+08:58:24 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper.hdf.
+08:58:26 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:07:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+09:07:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+09:07:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+ [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+09:07:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+09:07:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+09:07:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+09:07:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+ [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+09:07:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+09:07:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+09:07:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+09:07:30 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+ [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab6SoC\lab6SoC.sdk\lab6SoC_bsp\system.mss
+10:05:59 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:06:45 INFO  : ps7_init is completed.
+10:06:45 INFO  : ps7_post_config is completed.
+10:06:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:09:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:09:04 INFO  : System reset is completed.
+10:09:06 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:09:14 INFO  : ps7_init is completed.
+10:09:14 INFO  : ps7_post_config is completed.
+10:20:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:20:29 INFO  : System reset is completed.
+10:20:31 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:20:38 INFO  : ps7_init is completed.
+10:20:38 INFO  : ps7_post_config is completed.
+10:24:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:24:38 INFO  : System reset is completed.
+10:24:40 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:24:46 INFO  : ps7_init is completed.
+10:24:46 INFO  : ps7_post_config is completed.
+10:30:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:30:06 INFO  : System reset is completed.
+10:30:08 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:30:12 INFO  : ps7_init is completed.
+10:30:13 INFO  : ps7_post_config is completed.
+10:33:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:33:11 INFO  : System reset is completed.
+10:33:13 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:33:17 INFO  : ps7_init is completed.
+10:33:17 INFO  : ps7_post_config is completed.
+10:50:30 INFO  : System reset is completed.
+10:50:32 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:50:38 INFO  : ps7_init is completed.
+10:50:38 INFO  : ps7_post_config is completed.
+10:52:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:52:46 INFO  : System reset is completed.
+10:52:48 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:52:54 INFO  : ps7_init is completed.
+10:52:54 INFO  : ps7_post_config is completed.
+10:54:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:54:19 INFO  : System reset is completed.
+10:54:22 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:54:28 INFO  : ps7_init is completed.
+10:54:28 INFO  : ps7_post_config is completed.
+11:18:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:18:18 INFO  : System reset is completed.
+11:18:21 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:18:27 INFO  : ps7_init is completed.
+11:18:28 INFO  : ps7_post_config is completed.
+11:24:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:24:19 INFO  : System reset is completed.
+11:24:22 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:24:28 INFO  : ps7_init is completed.
+11:24:28 INFO  : ps7_post_config is completed.
+11:30:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:30:51 INFO  : System reset is completed.
+11:30:53 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:30:59 INFO  : ps7_init is completed.
+11:31:00 INFO  : ps7_post_config is completed.
+15:53:15 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490601147812,  Project:1490575834373
+15:53:15 INFO  : Project system_wrapper_hw_platform_2's source hardware specification located at C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:55:08 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf.
+15:55:11 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:55:18 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490601147812,  Project:1490575834373
+15:55:18 INFO  : Project system_wrapper_hw_platform_2's source hardware specification located at C:/Users/Wangsir/Documents/SOC/xup/lab7SoC/lab7SoC.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:55:34 INFO  : Project system_wrapper_hw_platform_2's source hardware specification location will not be monitored anymore.
+15:55:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab7SoC\lab7SoC.sdk\Lab7SoC_bsp\system.mss
+15:55:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab7SoC\lab7SoC.sdk\Lab7SoC_bsp\system.mss
+15:55:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab7SoC\lab7SoC.sdk\Lab7SoC_bsp\system.mss
+ [Hsi 55-1559] Software Design already exists with Name C:\Users\Wangsir\Documents\SOC\xup\lab7SoC\lab7SoC.sdk\Lab7SoC_bsp\system.mss
+15:56:49 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf.
+15:56:53 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_3.
+15:56:54 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+16:33:15 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490603568530,  Project:1490601147000
+16:33:15 INFO  : Project system_wrapper_hw_platform_3's source hardware specification located at C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:33:25 INFO  : Copied contents of C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_3\system.hdf.
+16:33:26 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:33:27 INFO  : Clearing existing target manager status.
+16:33:29 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:33:35 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:34:07 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf.
+16:34:09 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_3.
+16:34:09 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+16:43:11 ERROR : SDK has detected that project system_wrapper_hw_platform_0 has been deleted (or renamed).
+This project was referenced by a BSP project, which will now fail to compile properly.
+
+We recommend that you create a new BSP project pointing to a valid hardware project.
+16:44:47 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf.
+16:44:49 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+16:45:20 ERROR :  [Hsi 55-1430] Driver Name is empty
+16:46:08 INFO  : Project lab8SoC_bsp was a BSP project. Please update references.
+16:46:08 ERROR : SDK has detected that project lab8SoC_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references.
+16:47:49 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf.
+16:47:52 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:06:59 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:07:38 INFO  : ps7_init is completed.
+17:07:38 INFO  : ps7_post_config is completed.
+17:07:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:13:20 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:13:56 INFO  : ps7_init is completed.
+17:13:56 INFO  : ps7_post_config is completed.
+17:13:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:15:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:15:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:57 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+17:17:57 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+17:22:01 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:22:27 INFO  : ps7_init is completed.
+17:22:27 INFO  : ps7_post_config is completed.
+17:22:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:26:45 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+17:26:45 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+17:27:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:30:34 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf.
+17:30:36 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+17:30:36 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:31:05 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:31:42 INFO  : ps7_init is completed.
+17:31:42 INFO  : ps7_post_config is completed.
+17:31:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:16:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:28:10 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf.
+18:28:11 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+18:28:12 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+18:28:35 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:29:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:33:29 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:33:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:34:07 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:991)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:502)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:584)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+18:34:25 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:991)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:502)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:584)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+18:34:45 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:991)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:502)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:584)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+18:35:18 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:991)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:502)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:584)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+18:35:57 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:36:12 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:991)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:502)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:584)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+18:37:13 INFO  : Inferring section assignments and sizes from elf file: C:\Users\Wangsir\Documents\SOC\xup\lab8SoC\lab8SoC.sdk\lab8SoC\Debug\lab8SoC.elf
+18:37:52 INFO  : System reset is completed.
+18:37:53 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:37:54 INFO  : ps7_init is completed.
+18:37:54 INFO  : ps7_post_config is completed.
+18:40:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:40:28 INFO  : System reset is completed.
+18:40:30 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:40:30 INFO  : ps7_init is completed.
+18:40:30 INFO  : ps7_post_config is completed.
+18:42:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:42:22 INFO  : System reset is completed.
+18:42:23 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:42:24 INFO  : ps7_init is completed.
+18:42:24 INFO  : ps7_post_config is completed.
+18:48:14 INFO  : System reset is completed.
+18:48:15 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:48:16 INFO  : ps7_init is completed.
+18:48:16 INFO  : ps7_post_config is completed.
+18:49:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:50:02 INFO  : System reset is completed.
+18:50:03 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:50:04 INFO  : ps7_init is completed.
+18:50:04 INFO  : ps7_post_config is completed.
+18:50:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:51:00 INFO  : System reset is completed.
+18:51:02 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:51:02 INFO  : ps7_init is completed.
+18:51:02 INFO  : ps7_post_config is completed.
+19:08:15 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:08:24 INFO  : System reset is completed.
+19:08:26 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:08:27 INFO  : ps7_init is completed.
+19:08:27 INFO  : ps7_post_config is completed.
+19:09:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:09:23 INFO  : System reset is completed.
+19:09:24 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:09:25 INFO  : ps7_init is completed.
+19:09:25 INFO  : ps7_post_config is completed.
+19:12:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:12:27 INFO  : System reset is completed.
+19:12:29 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:12:30 INFO  : ps7_init is completed.
+19:12:30 INFO  : ps7_post_config is completed.
+19:12:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:12:53 INFO  : System reset is completed.
+19:12:55 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:12:56 INFO  : ps7_init is completed.
+19:12:56 INFO  : ps7_post_config is completed.
+19:13:30 INFO  : System reset is completed.
+19:13:32 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:13:33 INFO  : ps7_init is completed.
+19:13:33 INFO  : ps7_post_config is completed.
+19:18:17 INFO  : System reset is completed.
+19:18:18 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:18:20 INFO  : ps7_init is completed.
+19:18:20 INFO  : ps7_post_config is completed.
+19:18:20 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot flush JTAG buffers
+    Error Address = 0x00106004, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:666)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:605)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:19:24 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:45:18 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:55:50 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf.
+07:55:51 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+07:55:52 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+08:07:44 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+08:08:16 INFO  : System reset is completed.
+08:08:18 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+08:08:19 INFO  : ps7_init is completed.
+08:08:19 INFO  : ps7_post_config is completed.
+08:11:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+08:11:48 INFO  : System reset is completed.
+08:11:50 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+08:11:50 INFO  : ps7_init is completed.
+08:11:50 INFO  : ps7_post_config is completed.
+08:12:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+08:12:14 INFO  : System reset is completed.
+08:12:16 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+08:12:16 INFO  : ps7_init is completed.
+08:12:17 INFO  : ps7_post_config is completed.
+08:23:53 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:44:23 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab8SoC/lab8SoC.sdk/system_wrapper.hdf.
+22:44:27 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+22:44:27 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
