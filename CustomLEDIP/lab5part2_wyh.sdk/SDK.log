@@ -1,0 +1,27 @@
+14:38:18 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab5part2_wyh/lab5part2_wyh.sdk/system_wrapper.hdf.
+14:38:35 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:46:25 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab5part2_wyh/lab5part2_wyh.sdk/system_wrapper.hdf.
+14:46:26 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:46:27 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+14:46:27 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+14:49:27 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab5part2_wyh/lab5part2_wyh.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:50:24 INFO  : ps7_init is completed.
+14:50:25 INFO  : ps7_post_config is completed.
+14:50:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:51:14 INFO  : Inferring section assignments and sizes from elf file: C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2\Debug\lab5part2.elf
+14:52:00 INFO  : Successfully generated C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2\src\lscript.ld.
+14:52:00 INFO  : Applying linker script to all configurations of project lab5part2.
+14:52:00 INFO  : Setting rebuild state to true for all configurations of project lab5part2.
+14:53:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:53:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:00:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:49:30 INFO  : Processing command line option -hwspec C:/Users/Wangsir/Documents/SOC/xup/lab5part2_wyh/lab5part2_wyh.sdk/system_wrapper.hdf.
+07:49:31 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+07:49:32 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+07:49:32 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+07:50:56 INFO  : FPGA configured successfully with bitstream "C:/Users/Wangsir/Documents/SOC/xup/lab5part2_wyh/lab5part2_wyh.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+07:51:15 INFO  : ps7_init is completed.
+07:51:15 INFO  : ps7_post_config is completed.
+07:51:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:04:15 INFO  : Inferring section assignments and sizes from elf file: C:\Users\Wangsir\Documents\SOC\xup\lab5part2_wyh\lab5part2_wyh.sdk\lab5part2\Debug\lab5part2.elf
+09:56:45 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
